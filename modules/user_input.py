@@ -8,7 +8,7 @@ def Input():
         if threads:
             break
         else:
-            print('Введите количетсво аккаунтов: ')
+            print('Введите количетсво потоков: ')
 
     while True:
         mail_file_path = input('\nВведите путь к файлу с почтами,аккаунты будут созданы на все почты: ')
